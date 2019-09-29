@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "clang++ build active file",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=c++17",
+                "-stdlib=libc++",
+                "-g",
+                "${workspaceFolder}/chap1/main.cc",
+                "-o",
+                "${workspaceFolder}/chap1/main.out"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
