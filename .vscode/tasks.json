@@ -8,9 +8,9 @@
                 "-std=c++17",
                 "-stdlib=libc++",
                 "-g",
-                "${workspaceFolder}/chap1/main.cc",
+                "${workspaceFolder}/chap3/main.cc",
                 "-o",
-                "${workspaceFolder}/chap1/main.out"
+                "${workspaceFolder}/chap3/main.out"
             ],
             "group": {
                 "kind": "build",
