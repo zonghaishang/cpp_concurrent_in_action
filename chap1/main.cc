@@ -5,7 +5,7 @@ void helloWorldAsync() {
     std::cout << "Hello world!" << std::endl;
 }
 
-int main(){
+int maein(){
     std::thread asyncHello(helloWorldAsync);
     asyncHello.join();
 }
